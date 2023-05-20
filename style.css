@@ -1,0 +1,45 @@
+body {
+  background-color: #111;
+  color: #0f0;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+canvas {
+  border: 3px solid #0f0;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#status, #score {
+  color: #f00;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: #0f0;
+}
+
+button {
+  background-color: #0f0;
+  border: 2px solid #0f0;
+  color: #111;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #0f0;
+}
